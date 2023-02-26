@@ -1,15 +1,18 @@
 {
   "manifest_version": 3,
   "name": "Boosty Extender",
-  "version": "1.10.0",
+  "version": "1.13.0",
   "author": "whicencer",
   "content_scripts": [
     {
-      "matches": ["https://boosty.to/*"],
+      "matches": ["https://boosty.to/*", "https://boosty.to/*/posts/*"],
       "js": ["script.js"],
       "css": ["styles.css"]
     }
   ],
+  "action":{
+    "default_popup":"popup/popup.html"
+  },
   "permissions": [
     "storage"
   ]
