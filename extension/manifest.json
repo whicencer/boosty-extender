@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Download Boosty",
+  "version": "1.10.0",
+  "author": "whicencer",
+  "content_scripts": [
+    {
+      "matches": ["https://boosty.to/*"],
+      "js": ["script.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}
