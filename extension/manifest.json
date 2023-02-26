@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Download Boosty",
+  "name": "Boosty Extender",
   "version": "1.10.0",
   "author": "whicencer",
   "content_scripts": [
